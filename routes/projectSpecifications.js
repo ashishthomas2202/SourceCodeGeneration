@@ -4,7 +4,7 @@ const router = express.Router();
 const {
   businessQueries,
   businessSpecs,
-} = require("../controllers/projectSpecification");
+} = require("../controllers/projectSpecifications");
 
 router.get("/business_queries", businessQueries);
 router.post("/business_specs", businessSpecs);

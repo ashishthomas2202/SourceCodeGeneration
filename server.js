@@ -19,7 +19,7 @@ app.use(
 );
 
 //Routes
-const projectSpecificationRoutes = require("./routes/projectSpecification");
+const projectSpecificationRoutes = require("./routes/projectSpecifications");
 
 // Route Middlewares
 app.use("/project_specifications", projectSpecificationRoutes);
